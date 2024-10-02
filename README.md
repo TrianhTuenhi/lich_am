@@ -47,7 +47,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
 #sensor:
 - platform: rest  
   name: "Lunar Exlab"
-  resource: https://raw.githubusercontent.com/ExlLab/lich_am/master/sensor.json
+  resource: https://raw.githubusercontent.com/TrianhTuenhi/lich_am/refs/heads/master/sensor.json
   value_template: '{{ value_json.lichAm }}'
   force_update: true
   json_attributes:
